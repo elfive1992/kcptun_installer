@@ -1841,23 +1841,23 @@ del_instance() {
 install_kcptun() {
 	permission_check
 	linux_check
-	installed_check
+	# installed_check
 	disable_selinux
 	get_arch
 	get_server_ip
-	set_kcptun_config
-	install_dependence
+	# set_kcptun_config
+	# install_dependence
 	get_kcptun_version_info
 	download_file
 	unpack_file
-	config_kcptun
+	# config_kcptun
 	downlod_init_script
 	install_service
 	config_firewall
 	install_cleanup
 	get_installed_version
-	generate_mobile_args
-	show_installed_info
+	# generate_mobile_args
+	# show_installed_info
 }
 
 # 重新下载 kcptun
